@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: DynamicStruct
+  inspection: HasBinding

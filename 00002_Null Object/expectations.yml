@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: 'null'
+  inspection: HasBinding
+- binding: 'Null'
+  inspection: Not:HasBinding
