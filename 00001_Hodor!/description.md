@@ -1,28 +1,16 @@
-Supongamos que queremos modelar a [Hodor](https://es.wikipedia.org/wiki/Anexo:Personajes_de_Canci%C3%B3n_de_hielo_y_fuego#Hodor), personaje que es conocido porque sólo sabe decir "Hodor!".
-
-```ruby
-class Hodor
-  def method_missing(selector, *args, &block)
-    "Hodor!"
-  end
-end
-```
+Supongamos que queremos modelar a [Hodor](https://es.wikipedia.org/wiki/Anexo:Personajes_de_Canci%C3%B3n_de_hielo_y_fuego#Hodor), personaje que es conocido porque sólo sabe repetir "Hodor!", sin importar lo que se le pida:
 
 ```ruby
 hodor = Hodor.new
 hodor.estas_ahi?
-#=> Hodor!
+# => Hodor!
+hodor.sostener! puerta, bran
+# => Hodor! Hodor! Hodor!
 hodor.rescatar_a! bran
-#=> Hodor!
+# => Hodor! Hodor!
 ```
 
-> En realidad Hoder dice tantas veces "Hodor!" como argumentos tenga el mensaje, más uno.
->
-> ```ruby
-> hodor.estas_ahi?
-> #=> Hodor!
-> hodor.rescatar_a! bran
-> #=> Hodor! Hodor!
-> ```
-> Modificar la clase `Hodor` para que refleje esto.
+> Como se ve, Hodor dice tantas veces `"Hodor!"` como argumentos tenga el mensaje, más uno.
+> 
+> Partiendo del código que dejamos en el editor, modificar la clase `Hodor` para que refleje esto.
 
