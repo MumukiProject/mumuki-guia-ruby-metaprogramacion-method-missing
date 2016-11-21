@@ -2,12 +2,14 @@
 tags:
 - metaprogramacion
 - objetos
+- basico
+- nullobject
 - method_missing
 layout: input_right
 editor: code
 type: problem
 extra_visible: false
 language: 
-teacher_info: 
+teacher_info: ''
 manual_evaluation: false
 choices: []
