@@ -25,3 +25,5 @@ perro.send "ladrar_#{volumen}!"
 > * `ム 4.send :+, 6`
 > * `ム 'hello'.send :reverse`
 > * `ム 'hello'.send 'reverse'`
+> 
+> Nos será útil en el próximo ejercicio :wink:
