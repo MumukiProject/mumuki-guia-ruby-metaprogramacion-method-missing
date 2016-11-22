@@ -4,8 +4,7 @@ Cuando programamos estos patrones, es común que lleguemos a escribir clases que
 
 ```ruby
 class X
-  # la clase X declara los métodos `y` y `z`, 
-  # pero estos lo único que hacen es delegar en `@c`:  
+  # la clase X declara los métodos `y` y `z`, pero estos lo único que hacen es delegar en `@c`:  
   def y
     @c.y
   end
@@ -22,8 +21,7 @@ end
 > 
 > ```ruby
 > class X < Forwarder
->   # con esto estamos diciendo que todo mensaje que sea 
->   # recibido por X y no sea entendido, será delegado a @c 
+>   # con esto estamos diciendo que todo mensaje que sea recibido por X y no sea entendido, será delegado a @c 
 >   def forward_to
 >     @c
 >   end
