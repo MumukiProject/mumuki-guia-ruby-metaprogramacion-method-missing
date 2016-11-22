@@ -20,4 +20,8 @@ perro.send un_mensaje
 perro.send "ladrar_#{volumen}!"
 ```
 
-> Probá el mensaje `send` en la consola. Nos será útil en el próximo ejercicio :wink:
+> Probá el mensaje `send` en la consola, al menos con las siguientes consultas:
+>
+> * `ム 4.send :+, 6`
+> * `ム 'hello'.send :reverse`
+> * `ム 'hello'.send 'reverse'`
