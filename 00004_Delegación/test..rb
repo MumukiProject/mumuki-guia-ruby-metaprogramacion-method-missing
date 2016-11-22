@@ -23,7 +23,7 @@ describe Forwarder do
    expect(Foo.new(baz).baz).to eq 5
   end
 
-  it("si el delagador no tiene el método y el delegado no entiende el mensaje, lanza NoMethodError") do
+  it("si el delagador no tiene el metodo y el delegado no entiende el mensaje, lanza NoMethodError") do
    expect { Foo.new(nil).baz }.to raise_error NoMethodError
   end
 end
