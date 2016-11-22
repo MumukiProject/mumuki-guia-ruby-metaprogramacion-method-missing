@@ -18,7 +18,7 @@ class Object
 end
 ```
 
-> Como todo método se puede redefinir en las subclases. Mirá el código de la biblioteca y
+> Como todo método se puede redefinir en las subclases. **Mirá el código de la biblioteca** y
 > probá en la consola qué pasa si enviás los siguientes mensajes: 
 > 
 > * `ム ditto.sonreir`

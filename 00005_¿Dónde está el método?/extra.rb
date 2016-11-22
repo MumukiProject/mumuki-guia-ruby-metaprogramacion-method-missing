@@ -1,5 +1,5 @@
 class Ditto 
-  def sonrerir
+  def sonreir
     ":)"
   end
   def method_missing(nombre, *args)
