@@ -3,7 +3,7 @@ class Ditto
     ":)"
   end
   def method_missing(nombre, *args)
-    nombre
+    nombre.to_s
   end
 end
 
