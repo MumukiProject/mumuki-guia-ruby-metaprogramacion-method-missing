@@ -1,6 +1,6 @@
 ---
 tags: []
-layout: input_right
+layout: input_bottom
 editor: code
 type: playground
 extra_visible: false
