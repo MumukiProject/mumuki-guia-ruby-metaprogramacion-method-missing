@@ -1,4 +1,4 @@
-Queremos definir una clase `DynamicStruct`, que, a partir de un diccionario (`Hash`), pueda construir objetos que tengan un accessor para cada entrada. Por ejemplo:
+Queremos definir una clase `DynamicStruct` que, a partir de un diccionario (`Hash`), pueda construir objetos que tengan un accessor para cada entrada. Por ejemplo:
 
 ```ruby
 un_diccionario = {x: 4, z: "foo"}
