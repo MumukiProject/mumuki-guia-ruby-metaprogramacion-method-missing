@@ -17,15 +17,16 @@ class X
 end
 ```
 
-> Esto es bastante engorroso :pensive:, así que queremos poder reescribirlo de la siguiente forma: 
-> 
-> ```ruby
-> class X < Forwarder
->   # con esto estamos diciendo que todo mensaje que sea recibido por X y no sea entendido, será delegado a @c 
->   def forward_to
->     @c
->   end
-> end
->```
-> 
+Esto es bastante engorroso :pensive:, así que queremos poder reescribirlo de la siguiente forma: 
+ 
+```ruby
+ class X < Forwarder
+   # con esto estamos diciendo que todo mensaje que sea recibido por X y no sea entendido, 
+   # será delegado a @c 
+   def forward_to
+     @c
+   end
+ end
+```
+ 
 > Codificá la clase `Forwader`
