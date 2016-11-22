@@ -6,7 +6,7 @@ tags:
 layout: input_right
 editor: code
 type: problem
-extra_visible: false
+extra_visible: true
 language: 
 teacher_info: ''
 manual_evaluation: false
