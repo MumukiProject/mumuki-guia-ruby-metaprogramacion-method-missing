@@ -20,4 +20,4 @@ un_struct.z #5
 #etc
 ```
 
-> Desarrollá la clase `DynamicStruct` utilizando las herramientas vistas hasta ahora.
+> Desarrollá la clase `DynamicStruct` utilizando las herramientas vistas hasta ahora y el codigo que te dejamos en la biblioteca
