@@ -11,7 +11,7 @@ un_struct.y # "bar"
 #etc
 ```
 
-Además tenemos que garantizar que si los valores de las entradas de `un_diccionario` cambian, o nuevas entradas son añadidas o quitadas, estos cambios también tienen que verse reflejados en un_struct, y viceversa:
+Además tenemos que garantizar que si los valores de las entradas de `un_diccionario` cambian, o nuevas entradas son añadidas o quitadas, estos cambios también tienen que verse reflejados en `un_struct`, y viceversa:
 
 ```ruby
 un_diccionario.z = 5
