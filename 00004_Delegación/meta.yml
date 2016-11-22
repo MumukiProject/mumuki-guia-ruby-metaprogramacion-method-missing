@@ -4,7 +4,7 @@ tags:
 - objetos
 - delegator
 - method_missing
-layout: input_right
+layout: input_bottom
 editor: code
 type: problem
 extra_visible: false
