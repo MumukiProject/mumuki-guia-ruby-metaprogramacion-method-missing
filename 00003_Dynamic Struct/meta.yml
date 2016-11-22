@@ -3,7 +3,7 @@ tags:
 - metaprogramacion
 - objetos
 - method_missing
-layout: input_right
+layout: input_bottom
 editor: code
 type: problem
 extra_visible: true
