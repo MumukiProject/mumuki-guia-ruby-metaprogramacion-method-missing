@@ -6,3 +6,5 @@ class Ditto
     nombre
   end
 end
+
+ditto = Ditto.new

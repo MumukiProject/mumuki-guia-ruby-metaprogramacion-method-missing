@@ -21,8 +21,8 @@ end
 > Como todo método se puede redefinir en las subclases. Mirá el código de la biblioteca y
 > probá en la consola qué pasa si enviás los siguientes mensajes: 
 > 
-> * `ム ditto.to_s`
 > * `ム ditto.sonreir`
+> * `ム ditto.to_s`
 > * `ム ditto.impactrueno`
 > * `ム ditto.impactrueno 20`
 >
