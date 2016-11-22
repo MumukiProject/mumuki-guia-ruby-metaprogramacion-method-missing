@@ -15,11 +15,11 @@ describe Forwarder do
   end
   let(:baz) { OpenStruct.new(foo: 2, bar: 4, baz:5) }
 
-  it("si el delegador tiene el método, no delega") do
+  it("si el delegador tiene el metodo, no delega") do
     expect(Foo.new(baz).bar).to eq "bar"
   end
 
-  it("si el delegador no tiene el método, y el delegado entiende el mensaje, delega") do
+  it("si el delegador no tiene el metodo, y el delegado entiende el mensaje, delega") do
    expect(Foo.new(baz).baz).to eq 5
   end
 
