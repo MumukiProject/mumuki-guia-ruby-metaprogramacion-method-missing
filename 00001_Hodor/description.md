@@ -1,6 +1,6 @@
 Como acabamos de ver, si redefinimos `method_missing`, podemos hacer que un objeto entienda mensajes para los que no tiene un método. 
 
-Supongamos ahora que queremos modelar a [Hodor](https://es.wikipedia.org/wiki/Anexo:Personajes_de_Canci%C3%B3n_de_hielo_y_fuego#Hodor), personaje que es conocido porque sólo sabe repetir "Hodor!", sin importar lo que se le pida:
+Supongamos ahora que queremos modelar a [Hodor](https://es.wikipedia.org/wiki/Anexo:Personajes_de_Canci%C3%B3n_de_hielo_y_fuego#Hodor), personaje que es conocido porque sólo sabe repetir `"Hodor!"`, sin importar lo que se le pida:
 
 ```ruby
 hodor = Hodor.new
