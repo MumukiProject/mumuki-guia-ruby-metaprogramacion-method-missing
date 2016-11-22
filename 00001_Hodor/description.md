@@ -14,5 +14,5 @@ hodor.rescatar_a! bran
 
 > Como se ve, Hodor dice tantas veces `"Hodor!"` como argumentos tenga el mensaje, más uno.
 > 
-> Partiendo del código que dejamos en el editor, modificar la clase `Hodor` para que refleje esto.
+> Partiendo del código que dejamos en el editor, modificá la clase `Hodor` para que refleje esto.
 
