@@ -5,7 +5,7 @@ type: learning
 beta: false
 teacher_info: ''
 language: ruby
-id_format: '%05d'
+id_format: "%05d"
 order:
 - 5
 - 1
