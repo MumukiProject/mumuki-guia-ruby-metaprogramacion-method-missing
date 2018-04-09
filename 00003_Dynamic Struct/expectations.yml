@@ -2,3 +2,5 @@
 expectations:
 - binding: DynamicStruct
   inspection: HasBinding
+- binding: "*"
+  inspection: Except:DoesTypeTest

@@ -7,7 +7,6 @@ layout: input_bottom
 editor: code
 type: problem
 extra_visible: true
-language: 
 teacher_info: ''
 manual_evaluation: false
 choices: []
